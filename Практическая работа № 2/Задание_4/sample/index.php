@@ -11,13 +11,18 @@
 	
 	<?php
 		// определение переменных
-
-$wer=123;
+		$num1 = 952;
+		$num2 = 4;
+		$num3 = 476;
+		$num4 = 7;
+		$result_addition = 196;
 		// расчет выражения
-
+		$division1 = $num1 / $num2; // 952 / 4
+		$division2 = $num3 / $num4; // 476 / 7
 
 		// вывод расчетного значения в браузер
-
+		$result = ($division1 * 3) - $division2 + $result_addition;
+		echo "Итоговый результат: " . $result;
 	?>
 	
 
